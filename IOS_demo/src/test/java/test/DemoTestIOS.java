@@ -57,7 +57,7 @@ public class DemoTestIOS {
 		System.out.println("Get current day in System: " + daysArray[day]);
 		System.out.println("Compare Day vs Day");
 		
-		assertEquals("1111",getDayOfWeek(dayOfWeek));
+		assertEquals(daysArray[day],getDayOfWeek(dayOfWeek));
 	}
 
 
