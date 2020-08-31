@@ -3,7 +3,7 @@
 <suite name  = "demoTest" thread-count = "1" >
 	<test name = "demo">
 		<classes>
-			<class name = "DemoTestIOS"/>
+			<class name = "test.DemoTestIOS"/>
 		</classes>
 	</test>
 </suite>
